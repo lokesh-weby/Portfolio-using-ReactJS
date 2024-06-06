@@ -1,0 +1,159 @@
+body{
+  background-color: black;
+  color: white;
+}
+html{
+  overflow-x: hidden;
+
+}
+.info{
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+#target{
+  font-size: clamp(1.2rem, -2.7rem + 8.32vw, 2.5rem);
+  font-weight: 400;
+  -webkit-text-stroke-color: 2px red;
+}
+
+.info h1{
+  cursor: pointer;
+}
+#skills{
+  min-height: 100vh;
+  background-color: black;
+  background-image: url('https://th.bing.com/th/id/R.456b5ef22385e0acc00b6f3b9520a9cb?rik=mbvk3MUTziSLdg&riu=http%3a%2f%2fwww.graphicpie.com%2fwp-content%2fuploads%2f2020%2f11%2fred-among-us-png-842x1024.png&ehk=0jznGjiXzSZpFfk8p3qg61CJl1VbK86JkRGBuic4Jx4%3d&risl=&pid=ImgRaw&r=0');
+  background-size: 80px;
+  background-repeat: no-repeat;
+  background-position: top right;
+}
+.box{
+  height: 100px;
+  width: 100px;
+  background-color: blue;
+}
+.skillDes{
+
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0px 30px;
+  gap: 20px;
+  text-align: center;
+  margin-bottom: 50px;
+  padding: 30px 20px;
+}
+.skillset{
+
+margin: 0 auto;
+}
+.skills h1{
+  text-align: center;
+  margin-bottom: 50px;
+
+}
+.skills{
+  margin-bottom: 40px;
+  text-align: center;
+}
+.skills li{
+  list-style: none;
+  font-size: 1.5rem;
+  transition: 100ms linear;
+  &:hover{
+  cursor: pointer;
+  border-radius: 10px;
+  scale: 1.2;
+  color: #0d6efd;
+
+}
+}
+.height{
+height: 100%;
+}
+.skills i{
+  margin:0px 20px
+}
+nav{
+ background: linear-gradient(180deg, black,transparent);
+}
+.nav-link{
+  font-size: 1.2rem;
+  color: white;
+}
+#projects{
+  min-height: 100vh;
+  display: flex;
+  gap: 50px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.img{
+  height: 300px;
+  width: 400px;
+  border-radius: 10px;
+  position: relative;
+  border-radius: 10px;
+  overflow: hidden;
+  border: 2px solid white;
+
+}
+img{
+ height: 100%;
+ width: 100%;
+
+}
+
+
+.wrapper{
+  background-color: black;
+  border-radius: 10px;
+  color: white;
+}
+.content{
+  padding: 5px;
+  cursor: pointer;
+  background: linear-gradient(180deg,rgba(0, 0, 0, 0.359),black);
+  text-align: center;
+  transition: 100ms ease-in-out;
+  transform: translateY(-20px);
+  backdrop-filter: blur(2px);
+  opacity: 0;
+  color: white;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.content:hover{
+  opacity: 1;
+  scale: 1;
+  transform: translateY(0px);
+}
+.button .btn{
+  margin: 10px;
+}
+.wrapper{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 20px;
+}
+.button i{
+  margin-right:10px ;
+}
+.content strong{
+  font-weight: bold;
+  color:yellow;
+}
