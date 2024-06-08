@@ -120,7 +120,7 @@ function App() {
   </div>
   <div id='projects'>
     <h1 className='text-danger'>My Works</h1>
-    <h3>Click to Explore..</h3>
+    <h3 className='text-center'>Click to Explore..</h3>
     <div className='wrapper'>
     <div className='img'>
       <img src={img1}/>
