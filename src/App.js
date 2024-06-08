@@ -35,7 +35,7 @@ function App() {
       scrollTrigger: {
         trigger: "#target",
         start: "top 40%",    
-        scrub:3,
+        scrub:1,
       },  
        opacity:0,
       scale:2,
