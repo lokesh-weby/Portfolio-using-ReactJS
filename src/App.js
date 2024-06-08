@@ -60,7 +60,7 @@ function App() {
     <h1 className='text-center mb-5 hover '  >
       Hello, I am Lokesh <span className='text-danger'>Web Developer!</span> <i class="bi bi-mouse" id="mouse-i"></i>
       </h1>
-
+       <h6 className='text-center text-warning'>Scroll To Explore</h6>
      <p className='text-center' >
        <p id='target'>A self-learning aspirant, the ablity to survive in the IT field. I learned the following skills with my own interest worth more than <strong className='text-primary'>$100 dollars.</strong> Curious to learn new technology
       Loosing in Web Designing in College's It improves my designing skills. <strong className='text-warning'>This impacts in creating responsive designs</strong></p></p>
