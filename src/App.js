@@ -26,7 +26,7 @@ function App() {
   gsap.from(".info",{
     scrollTrigger:{
       trigger:".info",
-      start:"0px",
+      start:"20px",
       scrub:true,
       pin:true,
       markers:true
