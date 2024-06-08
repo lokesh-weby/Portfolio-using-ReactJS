@@ -36,7 +36,7 @@ function App() {
     gsap.from(text.chars, {
       scrollTrigger: {
         trigger: "#target",
-        start: "top 20%",    
+        start: "top 30%",    
         scrub:2,
         markers:true
      
