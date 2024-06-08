@@ -38,6 +38,7 @@ function App() {
         trigger: "#target",
         start: "top 40%",    
         scrub:2,
+        markers:true
      
       },  
        opacity:0,
