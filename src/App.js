@@ -28,7 +28,8 @@ function App() {
       trigger:".info",
       start:"top 10px",
       scrub:true,
-      pin:true
+      pin:true,
+      markers:true
 
     }
   })
