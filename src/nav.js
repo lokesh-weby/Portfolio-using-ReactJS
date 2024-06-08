@@ -1,4 +1,5 @@
 import React from 'react'
+import Resume from '../src/Resume.pdf'
 import './App.css';
 
 const nav = () => {
@@ -12,7 +13,10 @@ const nav = () => {
   </button>
   <div className="collapse navbar-collapse" id="navbarNav">
     <ul className="navbar-nav ms-auto">
-      <li className="nav-item active ">
+    <li className="nav-item">
+        <a className="nav-link" href={Resume} download="Loki's Resume">Resume</a>
+      </li>
+      <li className="nav-item">
         <a className="nav-link" href="#">Home</a>
       </li>
       <li className="nav-item ">
@@ -22,7 +26,7 @@ const nav = () => {
         <a className="nav-link" href="#projects">Projects</a>
       </li>
       <li className="nav-item ">
-        <a className="nav-link" href="#">Education</a>
+        <a className="nav-link" href="#education">Education</a>
       </li>
     </ul>
   </div>

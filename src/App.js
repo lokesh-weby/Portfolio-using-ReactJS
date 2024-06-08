@@ -1,6 +1,7 @@
 
 import './App.css';
 import Nav from './nav';
+import Footer from './footer'
 import SplitType from 'split-type';
 import { useEffect } from 'react';
 import gsap from 'gsap';
@@ -54,6 +55,9 @@ function App() {
   <Nav/>
 
 <div className='container'>
+  <div className='whatsapp'>
+  <a href="https://wa.me/+919659210076" target='_blank'><i class="bi bi-whatsapp"></i></a>
+  </div>
     <div className='info'>
     <h1 className='text-center mb-5 hover '  >
       Hello, I am Lokesh <span className='text-danger'>Web Developer!</span> <i class="bi bi-mouse" id="mouse-i"></i>
@@ -64,11 +68,6 @@ function App() {
       Loosing in Web Designing in College's It improves my designing skills. <strong className='text-warning'>This impacts in creating responsive designs</strong></p></p>
       </div>
   
-
- 
-  <div className='profile'>
-
-  </div>
   <div id='skills'>
     <div className='row height'>
       <div className='col-12 col-md-12 skillDes'>
@@ -123,6 +122,7 @@ function App() {
   </div>
   <div id='projects'>
     <h1 className='text-danger'>My Works</h1>
+    <h3>Click to Explore..</h3>
     <div className='wrapper'>
     <div className='img'>
       <img src={img1}/>
@@ -248,9 +248,33 @@ function App() {
    
 
   </div>
-
-
-  </div>
+  <div id='education'>
+    <h1 className='text-danger'>Education</h1>
+    <div className='clg'>
+ <h2><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-mortarboard-fill" viewBox="0 0 16 16">
+  <path d="M8.211 2.047a.5.5 0 0 0-.422 0l-7.5 3.5a.5.5 0 0 0 .025.917l7.5 3a.5.5 0 0 0 .372 0L14 7.14V13a1 1 0 0 0-1 1v2h3v-2a1 1 0 0 0-1-1V6.739l.686-.275a.5.5 0 0 0 .025-.917z"/>
+  <path d="M4.176 9.032a.5.5 0 0 0-.656.327l-.5 1.7a.5.5 0 0 0 .294.605l4.5 1.8a.5.5 0 0 0 .372 0l4.5-1.8a.5.5 0 0 0 .294-.605l-.5-1.7a.5.5 0 0 0-.656-.327L8 10.466z"/>
+</svg> Muthurangam Govt. Arts and Science College</h2> 
+<h3>Bsc Computer Science</h3>
+ <h3 className='text-warning'>Thiruvallur university,</h3>
+<h4>Vellore, TamilNadu [2021-2024]</h4>
+<h4> GPA: '6. 9'</h4>
+<h5>
+<p> Relevant Coursework:</p></h5>
+<h3> Software Engineering, Linux & Unix
+ OS, ShellScript, DBMS, DS &
+ Algorithm, PHP, Visual Basics,
+ Multimedia Flash, Cloud
+ computing, XML & Web-Services.</h3> 
+ </div>
+ <div className='school'>
+  <h2><i class="bi bi-building"> </i>K.K.S Mani Matric Higher Secondary School</h2>
+  <h4 className='text-warning'>Vellore, TamilNadu</h4>
+  <h5>Stream: Bio-Maths</h5>
+</div>
+</div>
+<Footer />
+</div>
 
   </>
   );

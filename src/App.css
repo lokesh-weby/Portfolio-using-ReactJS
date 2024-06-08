@@ -72,6 +72,31 @@ margin: 0 auto;
 
 }
 }
+.whatsapp{
+  z-index: 99;
+  position: fixed;
+  bottom:5em;
+  right: 5em;
+  background-color: green;
+  height: 3.5em;
+  width: 3.5em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  border: 2px solid white;
+  &:hover{
+    cursor: pointer;
+ 
+  }
+}
+.whatsapp a{
+  all:unset
+}
+.whatsapp i{
+ 
+  font-size: 2rem;
+}
 .height{
 height: 100%;
 }
@@ -79,7 +104,7 @@ height: 100%;
   margin:0px 20px
 }
 nav{
- background: linear-gradient(180deg, black,transparent);
+ background: linear-gradient(180deg, black,black);
 }
 .nav-link{
   font-size: 1.2rem;
@@ -108,7 +133,10 @@ img{
  width: 100%;
 
 }
-
+#projects h3{
+  letter-spacing: 0.3rem;
+  font-variant: small-caps;
+}
 
 .wrapper{
   background-color: black;
@@ -118,10 +146,10 @@ img{
 .content{
   padding: 5px;
   cursor: pointer;
-  background: linear-gradient(180deg,rgba(0, 0, 0, 0.359),black);
+  background: linear-gradient(180deg,rgba(0, 0, 0, 0.518),rgba(0, 0, 0, 0.359));
   text-align: center;
   transition: 100ms ease-in-out;
-  transform: translateY(-20px);
+  transform: translateY(-10px);
   backdrop-filter: blur(2px);
   opacity: 0;
   color: white;
@@ -157,3 +185,69 @@ img{
   font-weight: bold;
   color:yellow;
 }
+#education{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    flex-direction: column;
+    gap:5em;
+    margin: 2.5em 0em;
+    }
+    .clg, .school{
+      text-align: center;
+    }
+    footer{
+      height: 80vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-evenly;
+      border-top:1px solid rgba(255, 255, 255, 0.255);
+    }
+    .icons a{
+      text-decoration: none;
+    }
+    footer i{
+      color: white;
+       margin-left: 25px;
+      font-size: 2rem;
+      border-radius: 50%;
+      &:hover{
+        cursor: pointer;
+        color: orange;
+      }
+    }
+    .menu{
+     display:grid;
+     place-items: center;
+     grid-template-columns:repeat(4,1fr);
+ 
+  
+    }
+    .menu a{
+      transition: 100ms linear;
+      padding: 20px;
+      text-decoration: none;
+      color: inherit;
+      margin-left: 25px;
+      &:hover{
+        transform: translateY(-10px);
+        color: orange;
+      }
+    }
+    
+    @media (max-width:720px){
+      .menu{
+        grid-template-columns:1fr;
+       }
+       .whatsapp{
+        height: 3em;
+        width: 3em;
+        bottom:4em;
+        right: 2em;
+       }
+       .whatsapp i{
+        font-size: 1.5rem;
+       }
+    }
