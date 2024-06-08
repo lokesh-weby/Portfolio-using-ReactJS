@@ -29,8 +29,6 @@ function App() {
       start:"top 20%",
       scrub:true,
       pin:true,
-      markers:true
-
     }
   })
     gsap.from(text.chars, {
@@ -38,8 +36,6 @@ function App() {
         trigger: "#target",
         start: "top 40%",    
         scrub:2,
-        markers:true
-     
       },  
        opacity:0,
       scale:2,
