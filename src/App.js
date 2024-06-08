@@ -182,8 +182,8 @@ function App() {
       <p>Developed a company's Landign page usign <strong>HTML,Bootstrap,Reactjs,GSAP</strong> </p>
       <p>Ensure Responsive design and cross-browser Compatibility</p>
       <div className='button'>
-      <a className='btn btn-primary'><i class="bi bi-code-slash"></i>Source Code</a>
-      <a className='btn btn-danger'><i class="bi bi-link-45deg"></i>Go Live</a>
+      <a className='btn btn-primary' href='https://github.com/lokesh-weby/Portfolio-using-ReactJS' target='_blank'><i class="bi bi-code-slash"></i>Source Code</a>
+      <a className='btn btn-danger' href='https://portfolio-using-react-js-phi.vercel.app/' target='_blank'><i class="bi bi-link-45deg"></i>Go Live</a>
     </div>
     </div>
   </div>
