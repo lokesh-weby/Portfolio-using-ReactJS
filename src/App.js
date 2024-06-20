@@ -54,7 +54,7 @@ function App() {
 
 <div className='container'>
   <div className='whatsapp'>
-  <a href="https://wa.me/+919659210076" target='_blank'><i class="bi bi-whatsapp"></i></a>
+  <a href="https://wa.me/+919659210076?text=From your Portfolio.." target='_blank'><i class="bi bi-whatsapp"></i></a>
   </div>
     <div className='info'>
     <h1 className='text-center mb-5 hover '  >
