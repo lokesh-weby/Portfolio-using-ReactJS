@@ -15,7 +15,7 @@ const footer = () => {
         <h2><a  href="#">Home</a></h2>
         <h2><a href="#skills">Skills</a></h2>
         <h2><a href="#projects">Projects</a></h2>
-        <h2><a href="#education">Education</a></h2>
+        <h2><a href="#education">Education edited</a></h2>
         </div>
     <!-- Start of CuterCounter Code -->
 <a href="https://www.cutercounter.com/" target="_blank"><img src="https://www.cutercounter.com/hits.php?id=hxppokq&nd=6&style=3" border="0" alt="best free website hit counter"></a>
