@@ -209,6 +209,9 @@ width: 100%;
 .scroller>*{
   scroll-snap-align: center;
 }
+.content{
+  padding: 0px 1.5rem;
+}
 
 .button{
   padding: 1rem 0rem;
