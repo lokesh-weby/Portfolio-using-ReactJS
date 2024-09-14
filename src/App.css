@@ -34,7 +34,6 @@ html{
   font-weight: 400;
   -webkit-text-stroke-color: 2px red;
 }
-
 .info h1{
   cursor: pointer;
 }
@@ -108,7 +107,9 @@ margin: 0 auto;
 }
 marquee{
   color: black;
-  background:linear-gradient(45deg,transparent,rgba(71, 71, 71, 0.462),transparent);
+  
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.327);
+  border-radius: 5px;
 }
 .whatsapp a{
   all:unset
@@ -210,9 +211,12 @@ width: 100%;
   scroll-snap-align: center;
 }
 .content{
-  padding: 0px 1.5rem;
+  padding: 0px 1.8rem;
 }
-
+ .tech{
+  font-weight: 600;
+  background-color: yellow;
+}
 .button{
   padding: 1rem 0rem;
   display: flex;
