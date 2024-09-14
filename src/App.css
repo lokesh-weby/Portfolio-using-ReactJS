@@ -1,9 +1,25 @@
-body{
-  background-color: black;
+::selection {
   color: white;
+  background: rgba(0, 0, 0, 0.338);
+  }
+body{
+  background-color: #cdcecf;
+  color: black;
+}
+.text-white{
+  color: #ffffff !important;
+}
+.bg-gray{
+  background-color: #cdcecf !important;
 }
 html{
+  width: 100%;
   overflow-x: hidden;
+}
+.navbar-brand{
+  font-size: 2rem;
+  font-weight: bold;
+  font-family: cursive;
 
 }
 .info{
@@ -24,7 +40,6 @@ html{
 }
 #skills{
   min-height: 100vh;
-  background-color: black;
   background-image: url('https://th.bing.com/th/id/R.456b5ef22385e0acc00b6f3b9520a9cb?rik=mbvk3MUTziSLdg&riu=http%3a%2f%2fwww.graphicpie.com%2fwp-content%2fuploads%2f2020%2f11%2fred-among-us-png-842x1024.png&ehk=0jznGjiXzSZpFfk8p3qg61CJl1VbK86JkRGBuic4Jx4%3d&risl=&pid=ImgRaw&r=0');
   background-size: 80px;
   background-repeat: no-repeat;
@@ -84,17 +99,22 @@ margin: 0 auto;
   align-items: center;
   justify-content: center;
   border-radius: 50%;
-  border: 2px solid white;
+  border: 3px solid white;
+  box-shadow: 10px 7px 10px rgba(0, 0, 0, 0.525);
   &:hover{
     cursor: pointer;
  
   }
 }
+marquee{
+  color: black;
+  background:linear-gradient(45deg,transparent,rgba(71, 71, 71, 0.462),transparent);
+}
 .whatsapp a{
   all:unset
 }
 .whatsapp i{
- 
+   color: whitesmoke;
   font-size: 2rem;
 }
 .height{
@@ -103,12 +123,11 @@ height: 100%;
 .skills i{
   margin:0px 20px
 }
-nav{
- background: linear-gradient(180deg, black,black);
-}
+/* .bg-transparent{
+ background: linear-gradient(180deg,rgb(0, 0, 0),rgba(0, 0, 0, 0.232));
+} */
 .nav-link{
   font-size: 1.2rem;
-  color: white;
 }
 #projects{
   min-height: 100vh;
@@ -118,72 +137,83 @@ nav{
   align-items: center;
   justify-content: center;
 }
-.img{
-  height: 300px;
-  width: 400px;
-  border-radius: 10px;
-  position: relative;
-  border-radius: 10px;
-  overflow: hidden;
-  border: 2px solid white;
-
-}
 img{
- height: 100%;
- width: 100%;
+height: 200px;
+width: 100%;
 
+ margin-bottom: 2rem;
+ border-radius: 20px;
+ border:2px solid rgba(155, 154, 154, 0.449);
 }
-#projects h3{
-  letter-spacing: 0.3rem;
-  font-variant: small-caps;
+.img li{
+  font-size: 1.2rem;
+}
+.img{
+  scale: 0.8;
+  width: 400px;
+  background-color:white;
+  text-align: left;
+  padding:10px;
+  border-radius: 20px;
+  box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.24);
+  transition: 500ms ease;
+
+  &:hover{
+    scale: 0.9;
+    transform: translateY(-30px);
+  }
 }
 
-.wrapper{
-  background-color: black;
-  border-radius: 10px;
-  color: white;
-}
-.content{
-  padding: 5px;
+::-webkit-scrollbar {
+  width: 5px; 
+  }
+  ::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+  background: #888;
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+  background: #555;
   cursor: pointer;
-  background: linear-gradient(180deg,rgba(0, 0, 0, 0.518),rgba(0, 0, 0, 0.359));
-  text-align: center;
-  transition: 100ms ease-in-out;
-  transform: translateY(-10px);
-  backdrop-filter: blur(2px);
-  opacity: 0;
-  color: white;
-  position: absolute;
-  left: 0px;
-  top: 0px;
-  height: 100%;
-  width: 100%;
+  }
+  .nav-item a{
+    font-size: 2rem;
+    
+    border-radius: 40px;
+    color: black;
+    text-align: center;
+    margin-bottom: 10px;
+    transition: 0.2s linear;
+    &:hover{
+      background-color: black;
+      color: white;
+    }
+  }
+.img h3{
+  padding: 5px;
+  color:#0d6efd;
+  
+}
+.scroller{
+  cursor:pointer;
+  display: grid;
+  grid-auto-flow: column;
+  border-radius: 10px;
+  overflow-x: auto;
+  padding: 1rem;
+  scroll-snap-type: x mandatory;
+}
+.scroller>*{
+  scroll-snap-align: center;
+}
+
+.button{
+  padding: 1rem 0rem;
   display: flex;
-  align-items: center;
-  flex-direction: column;
   justify-content: space-around;
-}
-.content:hover{
-  opacity: 1;
-  scale: 1;
-  transform: translateY(0px);
-}
-.button .btn{
-  margin: 10px;
-}
-.wrapper{
-  width: 100%;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  gap: 20px;
-}
-.button i{
-  margin-right:10px ;
-}
-.content strong{
-  font-weight: bold;
-  color:yellow;
 }
 #education{
     min-height: 100vh;
@@ -198,18 +228,18 @@ img{
       text-align: center;
     }
     footer{
-      height: 80vh;
+      height: 35vh;
       display: flex;
       flex-direction: column;
       align-items: center;
       justify-content: space-evenly;
-      border-top:1px solid rgba(255, 255, 255, 0.255);
+      border-top:1px solid rgba(9, 9, 9, 0.24);
     }
     .icons a{
       text-decoration: none;
     }
     footer i{
-      color: white;
+      color: black;
        margin-left: 25px;
       font-size: 2rem;
       border-radius: 50%;
@@ -237,7 +267,7 @@ img{
       }
     }
     
-    @media (max-width:720px){
+    @media (max-width:600px){
       .menu{
         grid-template-columns:1fr;
        }
@@ -250,4 +280,43 @@ img{
        .whatsapp i{
         font-size: 1.5rem;
        }
+       .img{
+        min-height: 400px;
+        scale: 0.6;
+        &:hover{
+          scale: 0.7;
+          transform: unset;
+        }
+       }
+    }
+    /* time line css */
+    ul.timeline-3 {
+      list-style-type: none;
+      position: relative;
+    }
+    ul.timeline-3:before {
+      content: " ";
+      background: #d4d9df;
+      display: inline-block;
+      position: absolute;
+      left: 29px;
+      width: 2px;
+      height: 100%;
+      z-index: 400;
+    }
+    ul.timeline-3 > li {
+      margin: 20px 0;
+      padding-left: 20px;
+    }
+    ul.timeline-3 > li:before {
+      content: " ";
+      background: white;
+      display: inline-block;
+      position: absolute;
+      border-radius: 50%;
+      border: 3px solid #22c0e8;
+      left: 20px;
+      width: 20px;
+      height: 20px;
+      z-index: 400;
     }
