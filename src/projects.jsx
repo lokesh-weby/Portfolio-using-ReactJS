@@ -24,7 +24,7 @@ const projects = () => {
 
               <ul>
                 <li> <p>
-                Developed a Testimonial using<i className="tech"> HTML,CSS,Bootstrap,JavaScript</i>
+                Developed a Testimonial using <i className="tech">HTML, CSS, Bootstrap, JavaScript</i>
               </p></li>
                 <li><p>Through this project i have learn't grid layout</p></li>
               </ul>
@@ -54,7 +54,7 @@ const projects = () => {
               <h3>Weather app</h3>
               <ul>
                 <li> <p>
-                Developed a Weather Application using <i className="tech">HTML,Bootstrap,Reactjs,Axios</i>
+                Developed a Weather Application using <span className="tech">HTML, Bootstrap, Reactjs, Axios</span>
               </p></li>
                 <li><p>Ensure Responsive design and cross-browser Compatibility</p></li>
               </ul>
@@ -84,7 +84,7 @@ const projects = () => {
               <ul>
                 <li> <p>
                 Developed a Multi Page Register form using
-                <i className="tech"> HTML,Bootstrap,CSS,js</i>
+                <i className="tech"> HTML, Bootstrap, CSS, js</i>
               </p></li>
                 <li><p>Ensure Responsive design and cross-browser Compatibility</p></li>
               </ul>
@@ -115,7 +115,7 @@ const projects = () => {
               <ul>
                 <li> <p>
                 Developed a Calculator using
-                <i className="tech"> HTML,Bootstrap,glide js</i>
+                <i className="tech"> HTML, Bootstrap, glide js</i>
               </p></li>
                 <li><p>Ensure Responsive design and cross-browser Compatibility</p></li>
               </ul>
@@ -144,7 +144,7 @@ const projects = () => {
               <h3>Portfolio</h3>
               <ul>
                 <li> <p>
-                Developed a Portfolio using <i className="tech"> HTML,Bootstrap,Reactjs,CSS,GSAP</i>
+                Developed a Portfolio using <i className="tech"> HTML, Bootstrap, Reactjs, CSS, GSAP</i>
               </p></li>
                 <li><p>To understand the concepts of React compound</p></li>
               </ul>
@@ -167,7 +167,7 @@ const projects = () => {
               <ul>
                 <li> <p>
                 Developed a NewsHompage 
-                <i className="tech"> HTML,CSS,JavaScript</i>
+                <i className="tech"> HTML, CSS, JavaScript</i>
               </p></li>
                 <li><p>Practicing some designs..</p></li>
               </ul>
@@ -196,7 +196,7 @@ const projects = () => {
               <h3>News Landing Page</h3>
               <ul>
                 <li> <p>
-                Developed a landing page using<i className="tech"> HTML,Bootstrap,CSS</i>
+                Developed a landing page using<i className="tech"> HTML, Bootstrap, CSS</i>
               </p></li>
                 <li><p>Through this project i have learn't grid layout</p></li>
               </ul>
@@ -225,7 +225,7 @@ const projects = () => {
               <h3>Sunside landing page</h3>
               <ul>
                 <li> <p>
-                Developed a landing page usign <i className="tech"> HTML,Bootstrap,CSS</i>
+                Developed a landing page usign <i className="tech"> HTML, Bootstrap, CSS</i>
               </p></li>
                 <li><p>Designed my pixel perfect design what the UI is there</p></li>
               </ul>
@@ -255,7 +255,7 @@ const projects = () => {
               <h3>Netflex clone</h3>
               <ul>
                 <li> <p>
-                Developed Netflex login replicate using<i className="tech"> HTML,CSS</i>
+                Developed Netflex login replicate using<i className="tech"> HTML, CSS</i>
               </p></li>
                 <li><p>This is my inital project when I was learned HTML CSS</p></li>
               </ul>
