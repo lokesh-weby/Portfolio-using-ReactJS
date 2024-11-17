@@ -20,22 +20,46 @@ function App() {
         pin: true,
       },
     });
-    gsap.from(text.chars, {
+    gsap.from(text.words, {
       scrollTrigger: {
         trigger: "#target",
         start: "top 40%",
-        scrub: 2,
+        scrub: 3,
       },
-      opacity: 0,
-      scale: 2,
-      x: 40,
-      stagger: { amount: 10 },
+      translateX:100,
+      scale:0,
+      rotateX: 90,
+      stagger: { amount: 2 },
     });
   }, []);
 
+ 
+  // console.log(cursor);
+  
+
+  document.querySelector("body").addEventListener('mouseover', async (e) => {
+    var cursor = document.querySelector('.cursor');
+
+    console.log();
+    
+    
+    var { clientX: x, clientY: y } = e;
+
+    if(x>window.innerWidth/2){
+      cursor.style.transform="scaleX(-1)";
+    }else{
+      cursor.style.transform="scaleX(1)"
+    }
+
+    cursor.style.left = `${x+50}px`;
+    cursor.style.top = `${y+50}px`;
+  });
+  
+
   return (
     <>
-      <div className="container">
+      <div>
+      <div class="cursor"></div>
         <Nav />
         <div className="hello">
           <div className="whatsapp">
@@ -44,7 +68,7 @@ function App() {
             </a>
           </div>
         </div>
-        <div className="info">
+        <div className="info container">
           <h1 className="text-center mb-5">
             Hello, I am Lokesh{" "}
             <span className="text-danger">Web Developer!</span>{" "}

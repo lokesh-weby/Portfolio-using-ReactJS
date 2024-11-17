@@ -5,6 +5,21 @@
 body{
   background-color: #cdcecf;
   color: black;
+  cursor:crosshair;
+  font-family: "Orbitron";
+}
+.cursor {
+  width: 93px;
+  height: 156px;
+  background-image: url(https://htmlboilerplates.com/html-boilerplate-coder-dark.svg);
+  background-repeat: no-repeat;
+  -webkit-transition-duration: 1s;
+  transition-duration: 1s;
+  transition-timing-function: cubic-bezier(.11,1.28,.62,1.1);
+  position: fixed;
+  z-index: 99;
+  transform: translate(50%, 50%);
+  transform-origin: center;
 }
 .text-white{
   color: #ffffff !important;
@@ -19,8 +34,6 @@ html{
 .navbar-brand{
   font-size: 2rem;
   font-weight: bold;
-  font-family: cursive;
-
 }
 .info{
   height: 100vh;
@@ -36,6 +49,10 @@ html{
 }
 .info h1{
   cursor: pointer;
+}
+.info p{
+  word-spacing: 10px;
+  font-family: sans-serif;
 }
 #skills{
   min-height: 100vh;
@@ -149,22 +166,24 @@ width: 100%;
 .img li{
   font-size: 1.2rem;
 }
-.img{
+.img {
   scale: 0.8;
   width: 400px;
-  background-color:white;
+  background-color: white;
   text-align: left;
-  padding:10px;
+  padding: 10px;
   border-radius: 20px;
   box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.24);
   transition: 500ms ease;
-
+  height: 100%;
+  display: flex;
+  flex-flow: column;
+  justify-content: space-around;
   &:hover{
     scale: 0.9;
     transform: translateY(-30px);
   }
 }
-
 ::-webkit-scrollbar {
   width: 5px; 
   }
@@ -215,7 +234,7 @@ width: 100%;
 }
  .tech{
   font-weight: 600;
-  background-color: yellow;
+  background-color:yellow;
 }
 .button{
   padding: 1rem 0rem;
@@ -275,6 +294,10 @@ width: 100%;
     }
     
     @media (max-width:600px){
+
+      .cursor {
+        display: none;
+      }
       .menu{
         grid-template-columns:1fr;
        }

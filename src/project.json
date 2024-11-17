@@ -1,0 +1,100 @@
+[
+  {
+    "img": "images/img-1.jpg",
+    "Tittle": "Testimonial grid Layout",
+    "github":"https://github.com/lokesh-weby/testimonials-grid-section-main",
+    "demo":"https://testimonials-grid-section-main-ashen-two.vercel.app/",
+    "highlights": {
+      "desc": "Developed a Testimonial using",
+      "skills": "HTML, CSS, Bootstrap, JavaScript",
+      "Learned": "Through this project i have learn't grid layout"
+    }
+  },{
+   "img": "images/img-6.jpg",
+    "Tittle": "Weather app",
+    "github":"https://github.com/lokesh-weby/testimonials-grid-section-main",
+    "demo":"https://testimonials-grid-section-main-ashen-two.vercel.app/",
+    "highlights": {
+      "desc": "Developed a Weather Application using",
+      "skills": "HTML, Bootstrap, Reactjs, Axios",
+      "Learned": "Ensure Responsive design and cross-browser Compatibility"
+    }
+  },
+  {
+    "img": "images/img-4.jpg",
+     "Tittle": "Multi Page Register Form",
+     "github":"https://github.com/lokesh-weby/testimonials-grid-section-main",
+     "demo":"https://testimonials-grid-section-main-ashen-two.vercel.app/",
+     "highlights": {
+       "desc": "Developed a Multi Page Register form using",
+       "skills": " HTML, Bootstrap, CSS, js",
+       "Learned": "Ensure Responsive design and cross-browser Compatibility"
+     }
+   },
+   {
+    "img": "images/img-8.jpg",
+     "Tittle": "Gyro Caluculator",
+     "github":"https://github.com/lokesh-weby/testimonials-grid-section-main",
+     "demo":"https://testimonials-grid-section-main-ashen-two.vercel.app/",
+     "highlights": {
+       "desc": " Developed a Calculator using",
+       "skills": "HTML, Bootstrap, glide js",
+       "Learned": "Ensure Responsive design and cross-browser Compatibility"
+     }
+   },
+   {
+    "img": "images/img-07.jpg",
+     "Tittle": "Portfolio",
+     "github":"https://github.com/lokesh-weby/testimonials-grid-section-main",
+     "demo":"https://testimonials-grid-section-main-ashen-two.vercel.app/",
+     "highlights": {
+       "desc": " Developed a Portfolio using",
+       "skills": " HTML, Bootstrap, Reactjs, CSS, GSAP",
+       "Learned": "To understand the concepts of React compound and dynamic rendering"
+     }
+   },
+   {
+    "img": "images/img-2.jpg",
+     "Tittle": "News HomePage Main",
+     "github":"https://github.com/lokesh-weby/testimonials-grid-section-main",
+     "demo":"https://testimonials-grid-section-main-ashen-two.vercel.app/",
+     "highlights": {
+       "desc": " Developed a NewsHompage",
+       "skills": "HTML, CSS, JavaScript",
+       "Learned": "Practicing some designs.."
+     }
+   },
+   {
+    "img": "images/img-9.jpg",
+     "Tittle": "News Landing Page",
+     "github":"https://github.com/lokesh-weby/testimonials-grid-section-main",
+     "demo":"https://testimonials-grid-section-main-ashen-two.vercel.app/",
+     "highlights": {
+       "desc": "Developed a landing page using",
+       "skills": "HTML, Bootstrap, CSS",
+       "Learned": "Through this project i have learn't grid layout"
+     }
+   },
+   {
+    "img": "images/img-3.jpg",
+     "Tittle": "Sunside landing page",
+     "github":"https://github.com/lokesh-weby/testimonials-grid-section-main",
+     "demo":"https://testimonials-grid-section-main-ashen-two.vercel.app/",
+     "highlights": {
+       "desc": "Developed a landing page using",
+       "skills": "HTML, Bootstrap, CSS",
+       "Learned": "Designed my pixel perfect design what the UI is there"
+     }
+   },
+   {
+    "img": "images/img-5.jpg",
+    "github":"https://github.com/lokesh-weby/testimonials-grid-section-main",
+    "demo":"https://testimonials-grid-section-main-ashen-two.vercel.app/",
+     "Tittle": "Netflex login page clone",
+     "highlights": {
+       "desc": "Developed Netflex login replicate using",
+       "skills": " HTML, CSS",
+       "Learned": "This is my inital project when I was learned HTML CSS"
+     }
+   }
+]

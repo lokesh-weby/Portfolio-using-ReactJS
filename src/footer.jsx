@@ -17,8 +17,7 @@ const footer = () => {
         <h2><a href="#projects">Projects</a></h2>
         <h2><a href="#education">Education</a></h2>
         </div>
-
-    </footer>
+            </footer>
       
     </>
   )
