@@ -7,7 +7,7 @@ const footer = () => {
     <footer>
         <div className='icons'>
        <a href='https://github.com/lokesh-weby' target='_blank'><i class="bi bi-github"></i></a> 
-       <a href='https://www.instagram.com/loki_deviler_07/' target='_blank'><i class="bi bi-instagram"></i></a> 
+       <a href='https://www.instagram.com/lokesh_weby' target='_blank'><i class="bi bi-instagram"></i></a> 
        <a href='https://www.linkedin.com/in/lokesh-devlop' target='_blank'><i class="bi bi-linkedin"></i></a> 
        <a href='mailto:lokesh0212004@gmail.com' target='_blank'> <i class="bi bi-envelope"></i></a>
         </div>

@@ -4,63 +4,35 @@ import Footer from "./footer.jsx";
 import Project from "./projects.jsx";
 import SplitType from "split-type";
 import { useEffect } from "react";
-import gsap from "gsap";
-import { ScrollTrigger } from "gsap/ScrollTrigger";
+
 
 function App() {
   useEffect(() => {
-    gsap.registerPlugin(ScrollTrigger);
-    const text = new SplitType("#target", { types: "words, chars" });
-
-    gsap.from(".info", {
-      scrollTrigger: {
-        trigger: ".info",
-        start: "top 10%",
-        scrub: true,
-        pin: true,
-      },
-    });
-    gsap.from(text.words, {
-      scrollTrigger: {
-        trigger: "#target",
-        start: "top 40%",
-        scrub: 3,
-      },
-      translateX:100,
-      scale:0,
-      rotateX: 90,
-      stagger: { amount: 2 },
-    });
   }, []);
 
  
   // console.log(cursor);
   
 
-  document.querySelector("body").addEventListener('mouseover', async (e) => {
+  document.addEventListener('mouseover', (e) => {
     var cursor = document.querySelector('.cursor');
-
-    console.log();
     
-    
-    var { clientX: x, clientY: y } = e;
-
-    if(x>window.innerWidth/2){
-      cursor.style.transform="scaleX(-1)";
-    }else{
-      cursor.style.transform="scaleX(1)"
-    }
-
-    cursor.style.left = `${x+50}px`;
-    cursor.style.top = `${y+50}px`;
+    var { clientX:x, clientY: y } = e;
+  
+    cursor.style.transform = `translate(${x+50}px, ${y+20}px)`;
   });
   
 
   return (
     <>
       <div>
+      {/* <div id="loader">
+          
+          </div> */}
+      <Nav />
+        
       <div class="cursor"></div>
-        <Nav />
+       
         <div className="hello">
           <div className="whatsapp">
             <a href="https://wa.me/+919659210076" target="_blank">
@@ -72,21 +44,22 @@ function App() {
           <h1 className="text-center mb-5">
             Hello, I am Lokesh{" "}
             <span className="text-danger">Web Developer!</span>{" "}
-            <i class="bi bi-mouse" id="mouse-i"></i>
           </h1>
 
-          <p className="text-center">
-            <p id="target">
-              A self-learning aspirant, the ablity to survive in the IT field. I
+          
+            <span id="target">
+              <p>  A self-learning aspirant, the ablity to survive in the IT field. I
               learned the following skills with my own interest worth more than{" "}
-              <strong className="text-primary">$100 dollars.</strong> Curious to
+              <strong className="text-primary">$100 dollars.</strong></p>
+              <p>
+             Curious to
               learn new technology Loosing in Web Designing in College's It
               improves my designing skills.{" "}
               <strong className="text-white">
                 This impacts in creating responsive designs
-              </strong>
-            </p>
-          </p>
+              </strong></p>
+            </span>
+
         </div>
 
         <div id="skills">

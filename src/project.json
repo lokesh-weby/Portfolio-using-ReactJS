@@ -12,8 +12,8 @@
   },{
    "img": "images/img-6.jpg",
     "Tittle": "Weather app",
-    "github":"https://github.com/lokesh-weby/testimonials-grid-section-main",
-    "demo":"https://testimonials-grid-section-main-ashen-two.vercel.app/",
+    "github":"https://github.com/lokesh-weby/climate-app-axios",
+    "demo":"https://climate-app-axios.vercel.app/",
     "highlights": {
       "desc": "Developed a Weather Application using",
       "skills": "HTML, Bootstrap, Reactjs, Axios",
@@ -23,8 +23,8 @@
   {
     "img": "images/img-4.jpg",
      "Tittle": "Multi Page Register Form",
-     "github":"https://github.com/lokesh-weby/testimonials-grid-section-main",
-     "demo":"https://testimonials-grid-section-main-ashen-two.vercel.app/",
+     "github":"https://github.com/lokesh-weby/multi-form-using-react",
+     "demo":"https://multi-form-using-react.vercel.app/",
      "highlights": {
        "desc": "Developed a Multi Page Register form using",
        "skills": " HTML, Bootstrap, CSS, js",
@@ -34,8 +34,8 @@
    {
     "img": "images/img-8.jpg",
      "Tittle": "Gyro Caluculator",
-     "github":"https://github.com/lokesh-weby/testimonials-grid-section-main",
-     "demo":"https://testimonials-grid-section-main-ashen-two.vercel.app/",
+     "github":"https://github.com/lokesh-weby/calculator",
+     "demo":"https://calculator-omega-silk-59.vercel.app/",
      "highlights": {
        "desc": " Developed a Calculator using",
        "skills": "HTML, Bootstrap, glide js",
@@ -56,8 +56,8 @@
    {
     "img": "images/img-2.jpg",
      "Tittle": "News HomePage Main",
-     "github":"https://github.com/lokesh-weby/testimonials-grid-section-main",
-     "demo":"https://testimonials-grid-section-main-ashen-two.vercel.app/",
+     "github":"https://github.com/lokesh-weby/newsletter-signup",
+     "demo":"https://news-landing-page-tuu2.vercel.app/",
      "highlights": {
        "desc": " Developed a NewsHompage",
        "skills": "HTML, CSS, JavaScript",
@@ -67,8 +67,8 @@
    {
     "img": "images/img-9.jpg",
      "Tittle": "News Landing Page",
-     "github":"https://github.com/lokesh-weby/testimonials-grid-section-main",
-     "demo":"https://testimonials-grid-section-main-ashen-two.vercel.app/",
+     "github":"https://github.com/lokesh-weby/NewsLandingPage",
+     "demo":"https://news-landing-page-phi.vercel.app/",
      "highlights": {
        "desc": "Developed a landing page using",
        "skills": "HTML, Bootstrap, CSS",
@@ -78,8 +78,8 @@
    {
     "img": "images/img-3.jpg",
      "Tittle": "Sunside landing page",
-     "github":"https://github.com/lokesh-weby/testimonials-grid-section-main",
-     "demo":"https://testimonials-grid-section-main-ashen-two.vercel.app/",
+     "github":"https://github.com/lokesh-weby/sunnyside-agency",
+     "demo":"https://sunnyside-agency-topaz-ten.vercel.app/",
      "highlights": {
        "desc": "Developed a landing page using",
        "skills": "HTML, Bootstrap, CSS",
@@ -88,8 +88,8 @@
    },
    {
     "img": "images/img-5.jpg",
-    "github":"https://github.com/lokesh-weby/testimonials-grid-section-main",
-    "demo":"https://testimonials-grid-section-main-ashen-two.vercel.app/",
+    "github":"https://github.com/lokesh-weby/netflix",
+    "demo":"https://lokesh-weby.github.io/netflix/",
      "Tittle": "Netflex login page clone",
      "highlights": {
        "desc": "Developed Netflex login replicate using",

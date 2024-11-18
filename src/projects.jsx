@@ -1,7 +1,6 @@
 import Gallery from "./project.json";
 
 const projects = () => {
-  console.log(Gallery);
 
   return (
     <>

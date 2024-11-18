@@ -2,23 +2,35 @@
   color: white;
   background: rgba(0, 0, 0, 0.338);
   }
+
+  /*For dectect layout error
+  /* *{
+    border: 1px solid red
+  } */
+
+.active{
+  background-color: black;
+}
+.hide{
+  background-color: transparent;
+}
+
 body{
-  background-color: #cdcecf;
+  background-color: "#fffff";
   color: black;
-  cursor:crosshair;
-  font-family: "Orbitron";
+  font-family:monospace;
 }
 .cursor {
   width: 93px;
   height: 156px;
-  background-image: url(https://htmlboilerplates.com/html-boilerplate-coder-dark.svg);
+  background-image: url("https://htmlboilerplates.com/html-boilerplate-coder-dark.svg");
   background-repeat: no-repeat;
   -webkit-transition-duration: 1s;
   transition-duration: 1s;
   transition-timing-function: cubic-bezier(.11,1.28,.62,1.1);
   position: fixed;
-  z-index: 99;
-  transform: translate(50%, 50%);
+  filter: drop-shadow(10px 10px 2px rgb(61, 61, 61));
+  z-index: 1031;
   transform-origin: center;
 }
 .text-white{
@@ -35,6 +47,11 @@ html{
   font-size: 2rem;
   font-weight: bold;
 }
+
+nav{
+  box-shadow:5px 5px 5px rgba(47, 47, 47, 0.419);
+  background-color:#ffffff;
+}
 .info{
   height: 100vh;
   display: flex;
@@ -43,16 +60,19 @@ html{
   flex-direction: column;
 }
 #target{
-  font-size: clamp(1.2rem, -2.7rem + 8.32vw, 2.5rem);
-  font-weight: 400;
-  -webkit-text-stroke-color: 2px red;
+  font-size: clamp(1rem, -2.7rem + 8.32vw, 2rem);
+
+
+  /* background-color: blue; */
+  width: 80vw;
+
 }
 .info h1{
   cursor: pointer;
 }
 .info p{
-  word-spacing: 10px;
-  font-family: sans-serif;
+  word-spacing: 5px;
+
 }
 #skills{
   min-height: 100vh;
@@ -169,7 +189,7 @@ width: 100%;
 .img {
   scale: 0.8;
   width: 400px;
-  background-color: white;
+  background-color: #ffffff;
   text-align: left;
   padding: 10px;
   border-radius: 20px;
@@ -224,6 +244,7 @@ width: 100%;
   border-radius: 10px;
   overflow-x: auto;
   padding: 1rem;
+  background-color: ;
   scroll-snap-type: x mandatory;
 }
 .scroller>*{
