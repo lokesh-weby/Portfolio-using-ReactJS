@@ -8,13 +8,45 @@
     border: 1px solid red
   } */
 
-.active{
-  background-color: black;
-}
-.hide{
-  background-color: transparent;
+
+
+#loader{
+  background-color: white;
+  z-index: 2000;
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* display: none; */
+  
 }
 
+#loader svg path{
+
+  stroke: black;
+  stroke-width: 0.1;
+  stroke-dasharray: 50;
+  stroke-dashoffset: 50;
+
+  animation: textAnimation 4s linear;
+}
+@keyframes textAnimation {
+  0%{
+    fill: transparent;
+  stroke-dashoffset: 50;
+  } 
+  90%{
+    fill: transparent;
+  }
+  100%{
+    stroke-dashoffset: 0;
+    fill: black;
+  }
+  
+}
 body{
   background-color: "#fffff";
   color: black;
@@ -58,6 +90,22 @@ nav{
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  margin-top: 80px;
+}
+
+.info img{
+  width: 250px;
+  height: 250px;
+  animation: blob 10s linear infinite;
+  box-shadow:0px 5px 10px #ff00992a,5px 0px 20px #3123ae47;
+}
+@keyframes blob {
+  0% { border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%; }
+  20% { border-radius: 60% 40% 40% 60% / 60% 25% 75% 40%; }
+  40% { border-radius: 70% 30% 65% 35% / 80% 45% 55% 20%; }
+  60% { border-radius: 30% 70% 70% 30% / 20% 30% 70% 80%; }
+  80% { border-radius: 40% 60% 40% 60% / 70% 55% 45% 30%; }
+  100% { border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%; }
 }
 #target{
   font-size: clamp(1rem, -2.7rem + 8.32vw, 2rem);
@@ -189,7 +237,7 @@ width: 100%;
 .img {
   scale: 0.8;
   width: 400px;
-  background-color: #ffffff;
+  background-color: #fcfcfc;
   text-align: left;
   padding: 10px;
   border-radius: 20px;
@@ -244,7 +292,7 @@ width: 100%;
   border-radius: 10px;
   overflow-x: auto;
   padding: 1rem;
-  background-color: ;
+  background-color:#d9d9d9;
   scroll-snap-type: x mandatory;
 }
 .scroller>*{
@@ -315,6 +363,11 @@ width: 100%;
     }
     
     @media (max-width:600px){
+
+      svg{
+        width: 250px;
+        height: 250px;
+      }
 
       .cursor {
         display: none;
