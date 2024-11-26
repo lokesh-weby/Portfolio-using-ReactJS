@@ -7,8 +7,8 @@ const nav = () => {
     <>
 
 
-<nav className="navbar fixed-top navbar-expand-lg ">
-  <div className="container">
+<nav className="navbar fixed-top navbar-expand-lg container px-5 ">
+  
   <a className="navbar-brand" href="#">Portfolio</a>
   <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
     <span className="navbar-toggler-icon"></span>
@@ -21,7 +21,6 @@ const nav = () => {
       <a className="nav-item nav-link" href={Resume} download="Resume">Download CV</a>
     </div>
     </div>
-  </div>
 </nav>
     </>
   )

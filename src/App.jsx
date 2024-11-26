@@ -38,22 +38,22 @@ function App() {
         </div>
         <div className="info container">
           <h1 className="text-center mb-5">
-            Hello, I am Lokesh{" "}
-            <span className="text-danger">Web Developer!</span>{" "}
+            Hello, I am Lokesh
+            <span className="text-danger"> Web Developer!</span>
           </h1>
 
           <img src="images/user.jpg" alt="" />
 
           <span id="target">
             <p>
-              {" "}
+ 
               A self-learning aspirant, the ablity to survive in the IT field. I
-              learned the following skills with my own interest worth more than{" "}
-              <strong className="text-primary">$100 dollars.</strong>
+              learned the following skills with my own interest worth more than
+              <strong className="text-primary"> $100 dollars.</strong>
             </p>
             <p>
               Curious to learn new technology Loosing in Web Designing in
-              College's It improves my designing skills.{" "}
+              College's It improves my designing skills.
               <strong className="text-white">
                 This impacts in creating responsive designs
               </strong>
@@ -105,7 +105,7 @@ function App() {
 
                 <div className="col-12 col-md-6 skills">
                   <h1>
-                    {" "}
+                    
                     <i class="bi bi-gear"></i>DataBases & others
                   </h1>
                   <ul>
