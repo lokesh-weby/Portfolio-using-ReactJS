@@ -8,6 +8,18 @@
     border: 1px solid red
   }  */
 
+  @keyframes animate {
+    0%{
+      opacity: 0;
+      transform: translateY(-100px);
+    }
+    100%{
+      opacity: 1;
+      transform: translateY(0px);
+    }
+    
+    
+  }
 
 #loader{
   background-color: white;
@@ -46,14 +58,20 @@
   }
   
 }
+#root{
+  
+}
 body{
-  background: linear-gradient(90deg,#a1ffce,#faffd1);
+  /* background: linear-gradient(45deg,#3ed788,#d1df62); */
+  /* background: linear-gradient(45deg,white,rgba(0, 0, 0, 0.411)); */
+
   color: black;
   font-family:monospace;
 }
 .cursor {
   width: 93px;
   height: 156px;
+  scale: 0.8;
   background-image: url("https://htmlboilerplates.com/html-boilerplate-coder-dark.svg");
   background-repeat: no-repeat;
   -webkit-transition-duration: 1s;
@@ -82,11 +100,17 @@ html{
 nav{
   box-shadow:5px 5px 5px rgba(47, 47, 47, 0.419);
   border: 1px solid rgba(90, 89, 89, 0.521);
-  
   margin-top: 10px;
   border-radius: 50px;
-  background: linear-gradient(90deg,#a1ffce,#faffd1);
+  background-color: rgba(255, 255, 255, 0.277);
+  backdrop-filter: blur(10px);
 
+}
+
+.navbar-nav a{
+  /* background-color: rebeccapurple; */
+  margin: 0px 10px;
+  position: relative;
 }
 
 .info{
@@ -95,14 +119,15 @@ nav{
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  margin-top: 80px;
+  margin-top: 150px;
+  animation:animate 1s linear;
 }
 
 .info img{
   width: 250px;
   height: 250px;
   animation: blob 10s linear infinite;
-  box-shadow:0px 5px 10px #ff00992a,5px 0px 20px #3123ae47;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.388);
 }
 @keyframes blob {
   0% { border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%; }
